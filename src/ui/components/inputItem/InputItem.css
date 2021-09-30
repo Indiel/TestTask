@@ -1,0 +1,17 @@
+.input-item {
+  margin: 5px 0;
+}
+
+.input-item button {
+  margin-left: 5px;
+  padding: 0;
+  width: 20px;
+}
+
+.input-item:first-child button {
+  margin-right: 25px;
+}
+
+.input-item:first-child .input-item__btn-remove {
+  display: none;
+}
